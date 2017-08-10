@@ -1,0 +1,164 @@
+*{/*Reseteamos los valores de margin y padding con los valores que deseamos*/
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    
+}
+
+body{
+   background-color: #208337;
+}
+
+/*CABECERA*/
+.cabecera{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+/*.logo{
+    padding-left: 50px;
+}*/
+
+/*INPUT*/
+.buttonList{
+    background-color: #1EA93F;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    /*text-align: center;*/
+    padding: 50px;
+}
+
+.contenedor{
+    background: #1EA93F;
+    width: 100%; 
+    height: 560px;
+}
+
+.buttonList button{
+    color: white;
+    background: #208337;
+    padding: 10px 100px 10px 5px;
+    border: 2px transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: border;
+    text-align: left;
+}
+
+.buttonList button:hover { 
+    background-color: forestgreen;
+}
+
+#desplegar{
+    display: none;
+    background: #DDDDDD;
+    width: 200px;
+    text-align: center;
+    border: 2px transparent;
+    border-radius: 5px;
+    padding: 10px 100px 10px 5px;
+    margin: -50px 5px 5px 50px;
+}
+
+/*DESPLEGAR*/
+#add{
+    padding: 10px 100px 10px 5px;
+    border: 2px transparent;
+    font-size: 16px;
+    font-weight: border;
+    text-align: left;
+}
+
+#save{
+    color: white;
+    background: #208337;
+    padding: 5px 5px 5px 5px;
+    border: 2px transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: border;
+    text-align: left;
+    margin: 8px;
+}
+
+/*DIV QUE ALMACENARA TASKS*/
+.NombreLista{
+    background:#DDDDDD;
+    width: 200px;
+    text-align: center;
+    border: 2px transparent;
+    border-radius: 5px;
+    padding: 10px 100px 10px 5px;
+    margin: -50px 5px 5px 50px;
+}
+
+.NombreLista h1{
+   margin: 0 auto;
+   text-align: left;
+}
+
+.NombreLista button{
+    background: #DDDDDD;
+    border: 2px transparent;
+    padding: 0px;
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: border;
+    text-align: left;
+}
+
+.NombreLista .Newtask{
+    color: black;
+    background: white;
+    padding: 10px 100px 10px 5px;
+    border: 2px transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: border;
+    text-align: left;
+}
+
+.NombreLista input{
+    align-content: center;
+    margin: 10px;
+}
+
+/*.NombreLista .imagenOk{
+   padding: 0px  0px 0px 125px;
+   margin: 0 auto;
+   position: absolute;
+
+}*/
+
+/*Seccion another*/
+.another{
+    display: none;
+    background-color: #1EA93F;
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    position: absolute;
+    /*text-align: center;*/
+    padding: 50px;
+
+}
+
+.another button{
+    color: white;
+    background: #208337;
+    padding: 10px 100px 10px 5px;
+    border: 2px transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: border;
+    text-align: left;
+}
+
+.another button:hover { 
+    background-color: forestgreen;
+}
